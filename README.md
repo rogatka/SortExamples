@@ -1,6 +1,6 @@
 # Simple Sort Examples
 
-##[Bubble Sort](https://github.com/rogatka/SortExamples/src/main/java/BubbleSort.java)
+## [Bubble Sort](https://github.com/rogatka/SortExamples/blob/master/src/main/java/BubbleSort.java)
 
 Output:\
 [4, -2, 8, 0, 12, 4, -3, 8, 1]\
@@ -28,8 +28,8 @@ Output:\
         return sortedArray;
     }
 ```
-##[Selection Sort](https://github.com/rogatka/SortExamples/src/main/java/SelectionSort.java)
-Output:
+## [Selection Sort](https://github.com/rogatka/SortExamples/blob/master/src/main/java/SelectionSort.java)
+Output:\
 [4, -2, 8, 0, 12, 4, -3, 8, 1]\
 [-3, -2, 8, 0, 12, 4, 4, 8, 1]\
 [-3, -2, 8, 0, 12, 4, 4, 8, 1]\
@@ -58,7 +58,7 @@ Output:
         return sortedArray;
     }
 ```
-##[Insertion Sort](https://github.com/rogatka/SortExamples/src/main/java/InsertionSort.java)
+## [Insertion Sort](https://github.com/rogatka/SortExamples/blob/master/src/main/java/InsertionSort.java)
 Output:\
 [4, -2, 8, 0, 12, 4, -3, 8, 1]\
 [-2, 4, 8, 0, 12, 4, -3, 8, 1]\
@@ -85,7 +85,7 @@ Output:\
         return sortedArray;
     }
 ```
-##[Merge Sort](https://github.com/rogatka/SortExamples/src/main/java/MergeSort.java)
+## [Merge Sort](https://github.com/rogatka/SortExamples/blob/master/src/main/java/MergeSort.java)
 ```
     public static void mergeSort(int[] array, int low, int hi) {
         if (low >= hi) return;
@@ -127,7 +127,7 @@ Output:\
         }
     }
 ```
-##[Quick Sort](https://github.com/rogatka/SortExamples/src/main/java/QuickSort.java)
+## [Quick Sort](https://github.com/rogatka/SortExamples/blob/master/src/main/java/QuickSort.java)
 ```
     public static void quickSort(int[] array, int low, int hi) {
         if (low >= hi) return;
